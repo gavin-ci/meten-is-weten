@@ -5,9 +5,9 @@ if answer == "ja":
         if answer == "ja":
                 answer = input("Is de kaas belachelijk duur?")
                 if answer == "nee":
-                        print("Leerdammer")
+                    print("Leerdammer")
                 elif answer == "ja":
-                        print("Emmenthaler")
+                    print("Emmenthaler")
         elif answer == "nee":
                 answer = input("Is de kaas hard als steen?")
                 if answer == "ja":
@@ -15,7 +15,6 @@ if answer == "ja":
                 elif answer == "nee":
                     print("Goudse Kaas")
                 
-
 elif answer == "nee":
         answer = input("Heeft de kaas blauwe schimmels?")
         if answer == "ja":
